@@ -137,6 +137,23 @@
 	/* 演習1 ここまで */
 
 	/* TODO: 演習2 以降は下記に自由に記入 */
+	
+	
+	/*掛け算*/
+	
+	function mul(){
+		eqNum.value = parseFloat(midNum[0].value) *parseFloat(midNum[1].value);
+	}
+	
+	/*割り算*/
+	function div(){
+		if(parseFloat(midNum[1].value) == 0){
+			eqlNum.value = "ERROR";
+		}else{
+			eqlNum.value = parseFloat(midNum[0].value)
+		}
+	}
+	
 
 	/* 演習の編集範囲 おわり */
 
