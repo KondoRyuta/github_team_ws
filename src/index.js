@@ -128,9 +128,9 @@
 	/* 演習の編集範囲 はじめ */
 
 	/* 演習1 ここから */
-	add develop:A1
+	add master:A1
 	function add(){}
-	sub develop:B1
+	sub master:B1
 	function sub(){}
 	/* 演習1 ここまで */
 
